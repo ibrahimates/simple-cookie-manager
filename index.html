@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Simple Cookie Manager JS</title>
+  <script type="text/javascript" src="lib/simple-cookie-manager.js"></script>
+</head>
+<body>
+
+<script>
+
+var scm = new SimpleCookieManager();  //Create new cookie manager
+scm.writeCookie("TestCookie", "1", 1); // Writing cookie with name,value and expire time(hour)  
+console.log(scm.readCookie("TestCookie")); // Returns 1
+
+</script>
+
+</body>
+</html>
+
+
+
