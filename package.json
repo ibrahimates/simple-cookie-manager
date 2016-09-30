@@ -1,0 +1,13 @@
+{
+  "name": "simple-cookie-manager",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-stage-2": "~6.16.0",
+    "babel-preset-es2015": "~6.16.0"
+  },
+  "scripts": {
+    "build": "babel lib -d dist",
+    "start": "babel-node lib/simple-cookie-manager.js --presets es2015,stage-2"
+  }
+}
